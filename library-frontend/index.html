@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <h1>My Library</h1>
+    <form method="POST" action="http://localhost:3000/books">
+      <label for="title-field">Title</label>
+      <input id="title-field" name="title" type="text">
+
+      <label for="rating-field">Rating</label>
+      <select id="rating-field" name="rating">
+      </select>
+      
+      <label for="author-field">Author</label>
+      <select id="author-field" name="author_id">
+        
+      </select>
+
+      <input type="submit" value="Add Book">
+    </form>
+  </body>
+</html>
